@@ -115,7 +115,7 @@ One of the following will fix the problem:
 
 ## Tested browsers
 
-The preferred browser for `PaccMann_aas` is Firefox.
+The preferred browser for [PaccMann website](https://sysbio.uk-south.containers.mybluemix.net/paccmann) is Firefox.
 Here is a complete table for the browsers and OS with verified functionality.
 
 |OS   	|   Chrome	|   Edge	|   	Safari|  Firefox 	|
