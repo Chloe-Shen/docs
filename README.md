@@ -36,7 +36,7 @@ The purpose of the PaccMann GUI is to provide a PaccMann pipeline from input to 
 
 ### Getting started
 
-Access the service by clicking `Start` on the [main page](https://sysbio.uk-south.containers.mybluemix.net/pimkl).
+Access the service by clicking `Start` on the [main page](https://sysbio.uk-south.containers.mybluemix.net/paccmann).
 ![The login ensures your data is kept private.][login]
 
 ### Input
@@ -105,7 +105,7 @@ This attention heatmap is different for every (drug, cell-line) pair. However fo
 
 ## Known issues
 
-If you receive the following error while opening the [PaccMann website](www.ibm.biz/paccmann-aas): 
+If you receive the following error while opening the [PaccMann website](https://sysbio.uk-south.containers.mybluemix.net/paccmann): 
 ```
 {"error":"invalid_client","error_description":"prompt : none is supported only for single page application"}
 ```
