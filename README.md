@@ -1,2 +1,2 @@
-# paccmann_docs
+# docs
 Documentation for PaccMann
