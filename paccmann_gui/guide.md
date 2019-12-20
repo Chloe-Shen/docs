@@ -1,4 +1,4 @@
-# PaccMann GUI user guide
+# Table of contents
 
 This is a short guide about how to use the [PaccMann GUI](https://sysbio.uk-south.containers.mybluemix.net/paccmann) and what is happening behind the curtain.
 
@@ -36,7 +36,7 @@ The purpose of the PaccMann GUI is to provide a PaccMann pipeline from input to 
 
 ### Getting started
 
-Access the service by clicking `Start` on the [main page](https://sysbio.uk-south.containers.mybluemix.net/pimkl).
+Access the service by clicking `Start` on the [main page](https://sysbio.uk-south.containers.mybluemix.net/paccmann).
 ![The login ensures your data is kept private.][login]
 
 ### Input
@@ -105,7 +105,7 @@ This attention heatmap is different for every (drug, cell-line) pair. However fo
 
 ## Known issues
 
-If you receive the following error while opening the [PaccMann website](www.ibm.biz/paccmann-aas): 
+If you receive the following error while opening the [PaccMann website](https://sysbio.uk-south.containers.mybluemix.net/paccmann): 
 ```
 {"error":"invalid_client","error_description":"prompt : none is supported only for single page application"}
 ```
@@ -124,7 +124,7 @@ Here is a complete table for the browsers and OS with verified functionality.
 | Windows	| &#x2611;  	|   	|  N.A. 	|&#x2611;   	|
 | MacOS  	| &#x2611; 	|  N.A. 	| &#x2611;  	|  &#x2611; 	|
 
-[login]: screens/login.png
-[input]: screens/input_screen.png
-[molecule_editor]: screens/molecule_editor.png
-[results_embelin]: screens/result_embelin.png
+[login]: paccmann_gui/screens/login.png
+[input]: paccmann_gui/screens/input_screen.png
+[molecule_editor]: paccmann_gui/screens/molecule_editor.png
+[results_embelin]: paccmann_gui/screens/result_embelin.png
