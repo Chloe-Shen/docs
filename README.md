@@ -1,4 +1,4 @@
-# PaccMann GUI user guide
+# Table of contents
 
 This is a short guide about how to use the [PaccMann GUI](https://sysbio.uk-south.containers.mybluemix.net/paccmann) and what is happening behind the curtain.
 
