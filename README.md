@@ -1,2 +1,3 @@
 # docs
-Documentation for PaccMann
+Documentation for PaccMann  
+Hosted with [github pages](https://paccmann.github.io/docs/)
