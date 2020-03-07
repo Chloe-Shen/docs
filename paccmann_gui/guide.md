@@ -8,7 +8,7 @@ This is a short guide about how to use the [PaccMann UI](https://sysbio.eu-gb.co
 
 The purpose of the project is to develop an user-friendly and interpretable interface to perform in-silico IC50 drug screenings for cancer cell lines. The screening is performed from the combination of a chemical compound and the transcriptomics profile of the cell line of interest.
 
-The purpose of the PaccMann GUI is to provide a PaccMann pipeline from input to result as an easy to use service for the community.
+The purpose of the PaccMann UI is to provide a PaccMann pipeline from input to result as an easy to use service for the community.
 
 ## Tutorial
 
