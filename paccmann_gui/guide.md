@@ -33,7 +33,7 @@ For example the TKI Masitinib (commercial name Masivet) can be represented as:
 
 Services such as [PubChem](https://pubchem.ncbi.nlm.nih.gov) can help to retrieve the SMILES sequence of known chemicals.
 
-The user can have more information on the SMILES handling we perform by cliking the corresponding info button.
+The user can have more information on the SMILES handling we perform by clicking the corresponding info button.
 ![Smiles info][smiles_info]
 ![Smiles info expanded][smiles_info_expanded]
 
