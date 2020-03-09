@@ -31,9 +31,11 @@ Chemicals are represented as SMILES (`Simplified Molecular Input Line Entry Syst
 For example the TKI Masitinib (commercial name Masivet) can be represented as:
 `CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC(=CS4)C5=CN=CC=C5`
 
-Services such as [PubChem](https://pubchem.ncbi.nlm.nih.gov) can help to retrieve the SMILES sequence of known chemicals.
+Services such as [PubChem](https://pubchem.ncbi.nlm.nih.gov) or
+[ZINC](http://zinc.docking.org/substances/) can help to retrieve the SMILES
+sequence of known chemicals.
 
-The user can have more information on the SMILES handling we perform by cliking the corresponding info button.
+The user can have more information on the SMILES handling we perform by clicking the corresponding info button.
 ![Smiles info][smiles_info]
 ![Smiles info expanded][smiles_info_expanded]
 
@@ -67,8 +69,14 @@ No worries, the service run predictions in an asynchronous fashion and use cooki
 Information on the genes supported by the model can be accessed via the info button.
 ![Genes information][genes_info]
 ![Genes information expanded][genes_info_expanded]
+The omic data should be provided as `.csv` with genes in the columns and one row
+per cell line. The order of the columns does not need to adhere to the order we
+provide in our example and additional genes are discarded. Missing genes are
+mean-imputed (with 0s).
 
-The **set of 2128 genes** used for the predictions can be also donwloaded [here](https://ibm.ent.box.com/s/vfehvfly7mi2obvaj86pjuy9a82e8nik/file/489488390168).
+The **set of 2128 genes** used for the predictions can be also donwloaded
+[here](https://ibm.ent.box.com/s/vfehvfly7mi2obvaj86pjuy9a82e8nik/file/489488390168).
+
 
 #### Condifence estimate
 
