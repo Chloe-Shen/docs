@@ -1,28 +1,4 @@
-<<<<<<< HEAD
 # PaccMann UI
-=======
-# Table of contents
-
-This is a short guide about how to use the [PaccMann GUI](https://sysbio.uk-south.containers.mybluemix.net/paccmann) and what is happening behind the curtain.
-
-- [PaccMann GUI Guide](#paccmann-gui-guide)
-    - [Purpose of PaccMann](#purpose-of-paccmann)
-    - [Purpose of PaccMann GUI](#purpose-of-paccmann-gui)
-    - [Walkthrough](#walkthrough)
-    	- [Getting-started](#getting-started)
-        - [Input](#input)
-            - [SMILES](#smiles)
-            - [Molecule Editor](#molecule-editor)
-            - [Cancer cell-lines](#cancer-cell-lines)
-        - [Output](#output)
-        	- [Result Table](#result-table)
-            - [Visualization](#visualization)
-            - [Download](#download)
-    - [Known issues](#known-issues)
-    - [Tested browsers](#tested-browsers)
-    
-    
->>>>>>> a5b4f5c57bb507961f6fbba23b5d19f01f15e636
 
 This is a short guide about how to use the [PaccMann UI](https://sysbio.eu-gb.containers.appdomain.cloud/paccmann-aas-gui) and what is happening behind the curtain.
 
@@ -38,16 +14,11 @@ The purpose of the PaccMann UI is to provide a PaccMann pipeline from input to r
 
 ### Getting started
 
-<<<<<<< HEAD
 Access the service by clicking `Start` on the [main page](https://sysbio.eu-gb.containers.appdomain.cloud/paccmann-aas-gui).
 ![The cookies ensure your data is kept private.][start]
 
 The home page will present to the user a form to input data and submit predictions.
 ![PaccMann home page][home]
-=======
-Access the service by clicking `Start` on the [main page](https://sysbio.uk-south.containers.mybluemix.net/paccmann).
-![The login ensures your data is kept private.][login]
->>>>>>> a5b4f5c57bb507961f6fbba23b5d19f01f15e636
 
 ### Input
 
@@ -137,25 +108,11 @@ Different samples can be selected via a dropdown rendering different attention p
 Drug attention plots can be downloaded in vector graphic format in a zip file.
 [attention_sample_1_download]: paccmann_gui/screens/attention_sample_1_download.png
 
-<<<<<<< HEAD
 Gene attention plots can  be downloaded using the tools embedded in the visualization.
 
 ## Tested browsers
 
 The preferred browser for [PaccMann website](https://sysbio.eu-gb.containers.appdomain.cloud/paccmann-aas-gui) is Firefox.
-=======
-If you receive the following error while opening the [PaccMann website](https://sysbio.uk-south.containers.mybluemix.net/paccmann): 
-```
-{"error":"invalid_client","error_description":"prompt : none is supported only for single page application"}
-```
-One of the following will fix the problem:
-- Opening the service in a fresh, private browser window
-- Wipe your browser cookies
-
-## Tested browsers
-
-The preferred browser for [PaccMann website](https://sysbio.uk-south.containers.mybluemix.net/paccmann) is Firefox.
->>>>>>> a5b4f5c57bb507961f6fbba23b5d19f01f15e636
 Here is a complete table for the browsers and OS with verified functionality.
 
 |OS   	|   Chrome	|   Edge	|   	Safari|  Firefox 	|
@@ -164,7 +121,6 @@ Here is a complete table for the browsers and OS with verified functionality.
 | Windows	| &#x2611;  	|   	|  N.A. 	|&#x2611;   	|
 | MacOS  	| &#x2611; 	|  N.A. 	| &#x2611;  	|  &#x2611; 	|
 
-<<<<<<< HEAD
 [start]: paccmann_gui/screens/start.png
 [home]: paccmann_gui/screens/home.png
 [drug_selection]: paccmann_gui/screens/drug_selection.png
@@ -183,9 +139,3 @@ Here is a complete table for the browsers and OS with verified functionality.
 [attention_average_gene_slider]: paccmann_gui/screens/attention_average_gene_slider.png
 [attention_sample_1]: paccmann_gui/screens/attention_sample_1.png
 [attention_sample_1_download]: paccmann_gui/screens/attention_sample_1_download.png
-=======
-[login]: paccmann_gui/screens/login.png
-[input]: paccmann_gui/screens/input_screen.png
-[molecule_editor]: paccmann_gui/screens/molecule_editor.png
-[results_embelin]: paccmann_gui/screens/result_embelin.png
->>>>>>> a5b4f5c57bb507961f6fbba23b5d19f01f15e636
