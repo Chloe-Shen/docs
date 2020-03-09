@@ -4,7 +4,7 @@ Documentation for PaccMann
 Hosted withgithub pages
 
 ## Documentation sites
-- [root]([paccmann_gui](https://paccmann.github.io/docs/)) through permalinked [~~paccmann_gui/guide~~](https://paccmann.github.io/docs/paccmann_gui/guide) from [paccmann_gui/guide.md](paccmann_gui/guide.md) instead of this README.  
+- [/](https://paccmann.github.io/docs/) (root index page) through permalinked [~~/paccmann_gui/guide~~](https://paccmann.github.io/docs/paccmann_gui/guide) from [paccmann_gui/guide.md](paccmann_gui/guide.md) instead of this README.  
 
 ## Write
 
