@@ -1,3 +1,7 @@
+---
+permalink: /
+---
+
 # PaccMann UI
 
 This is a short guide about how to use the [PaccMann UI](https://sysbio.eu-gb.containers.appdomain.cloud/paccmann-aas-gui) and what is happening behind the curtain.

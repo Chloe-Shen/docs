@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
 title: PaccMann UI user guide
 description: Tutorial to document the usage of PaccMann UI
+plugins:
+  - jekyll-relative-links
