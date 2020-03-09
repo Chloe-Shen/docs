@@ -78,11 +78,11 @@ per cell line. The order of the columns does not need to adhere to the order we
 provide in our example and additional genes are discarded. Missing genes are
 mean-imputed (with 0s).
 
-The **set of 2128 genes** used for the predictions can be also donwloaded
+The **set of 2128 genes** used for the predictions can be also downloaded
 [here](https://ibm.ent.box.com/s/vfehvfly7mi2obvaj86pjuy9a82e8nik/file/489488390168).
 
 
-#### Condifence estimate
+#### Confidence estimate
 
 Additionally PaccMann provides the possibility to associate a confidence value to its estimates.
 ![Confidence estimate information][confidence_info]
@@ -90,7 +90,7 @@ Additionally PaccMann provides the possibility to associate a confidence value t
 Once the parameters are set the form is ready for submission.
 ![Submission ready][submission]
 
-By pressing the `Predict` button the user will submit a PaccMann job and, upon completion, a `Results` button will appear allowing the user to analyse and visualise the data.
+By pressing the `Predict` button the user will submit a PaccMann job and, upon completion, a `Results` button will appear allowing the user to analyse and visualize the data.
 ![Results ready][results_ready]
 
 ### Results
@@ -101,7 +101,7 @@ The predictions are rendered in an interactive and downloadable containing IC50 
 
 ![Result for running PaccMann][sensitivity]
 
-The table can be sorted in ascending or descending order by every column. The columns can also be filtered by tpying a string of interest, e.g. in order to search for the result of a specific sample or show the predictions for all samples of a tissue type.
+The table can be sorted in ascending or descending order by every column. The columns can also be filtered by typing a string of interest, e.g. in order to search for the result of a specific sample or show the predictions for all samples of a tissue type.
 The width and the vertical ordering of the columns may also be changed according to the user's preferences.
 This interactive (filtered) table can be downloaded by clicking the blue `Download CSV` button at the bottom of the results section.
 
@@ -133,21 +133,22 @@ Here is a complete table for the browsers and OS with verified functionality.
 | Windows	| &#x2611;  	|   	|  N.A. 	|&#x2611;   	|
 | MacOS  	| &#x2611; 	|  N.A. 	| &#x2611;  	|  &#x2611; 	|
 
-[start]: paccmann_gui/screens/start.png
-[home]: paccmann_gui/screens/home.png
-[drug_selection]: paccmann_gui/screens/drug_selection.png
-[smiles_info]: paccmann_gui/screens/smiles_info.png
-[smiles_info_expanded]: paccmann_gui/screens/smiles_info_expanded.png
-[genes_info]: paccmann_gui/screens/genes_info.png
-[genes_info_expanded]: paccmann_gui/screens/genes_info_expanded.png
-[confidence_info]: paccmann_gui/screens/confidence_info.png
-[bax_selection]: paccmann_gui/screens/bax_selection.png
-[bax_editor]: paccmann_gui/screens/bax_editor.png
-[bax_editor_ring]: paccmann_gui/screens/bax_editor_ring.png
-[bax_editor_confirm]: paccmann_gui/screens/bax_editor_confirm.png
-[submission]: paccmann_gui/screens/submission.png
-[results_ready]: paccmann_gui/screens/results_ready.png
-[attention_average]: paccmann_gui/screens/attention_average.png
-[attention_average_gene_slider]: paccmann_gui/screens/attention_average_gene_slider.png
-[attention_sample_1]: paccmann_gui/screens/attention_sample_1.png
-[attention_sample_1_download]: paccmann_gui/screens/attention_sample_1_download.png
+[start]: screens/start.png
+[home]: screens/home.png
+[drug_selection]: screens/drug_selection.png
+[smiles_info]: screens/smiles_info.png
+[smiles_info_expanded]: screens/smiles_info_expanded.png
+[genes_info]: screens/genes_info.png
+[genes_info_expanded]: screens/genes_info_expanded.png
+[confidence_info]: screens/confidence_info.png
+[bax_selection]: screens/bax_selection.png
+[bax_editor]: screens/bax_editor.png
+[bax_editor_ring]: screens/bax_editor_ring.png
+[bax_editor_confirm]: screens/bax_editor_confirm.png
+[submission]: screens/submission.png
+[results_ready]: screens/results_ready.png
+[sensitivity]: screens/sensitivity.png
+[attention_average]: screens/attention_average.png
+[attention_average_gene_slider]: screens/attention_average_gene_slider.png
+[attention_sample_1]: screens/attention_sample_1.png
+[attention_sample_1_download]: screens/attention_sample_1_download.png
