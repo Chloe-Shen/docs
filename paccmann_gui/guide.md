@@ -21,8 +21,13 @@ The purpose of the PaccMann UI is to provide a PaccMann pipeline from input to r
 Access the service by clicking `Start` on the [main page](https://sysbio.eu-gb.containers.appdomain.cloud/paccmann-aas-gui).
 ![The cookies ensure your data is kept private.][start]
 
+**NOTE:** this landing page is used the initialize the anonymous session that allows to retrieve the predictions you run in PaccMann for one week. It is also used to report links to the Terms of Service and the Privacy settings.
+
 The home page will present to the user a form to input data and submit predictions.
 ![PaccMann home page][home]
+
+The accordion below the navbar contains general information on the web service usage.
+![PaccMann general info][general_instructions]
 
 ### Input
 
@@ -43,7 +48,7 @@ The user can have more information on the SMILES handling we perform by clicking
 ![Smiles info][smiles_info]
 ![Smiles info expanded][smiles_info_expanded]
 
-The user can fill the SMILES field with a chemical or select molecules from a dropdown menu.
+The user can fill the SMILES field with a chemical or select molecules from a dropdown menu (molecules are sorted alphabetically).
 ![Drug dropdown][drug_selection]
 
 If the user is unfamiliar with SMILES, or prefers to draw the molecules directly, the  molecule editor offers a user-friendly way to explore and test molecules interactively.
@@ -54,6 +59,9 @@ The user can  even edit drugs after selection, just pick a molecule in the dropd
 
 And open the editor.
 ![Drug editor][bax_editor]
+
+The accordion below the navbar briefly describes how to use the molecule editor.
+![Drug editor instructions][bax_editor_instructions]
 
 The left panel contains the tools for editing the molecule, e.g. the `erase tool` (to erase specific atoms or bonds), the `bond tool` (to add a bond from a set of typical bonds), the `ring structure tool` (to add a ring from a set of typical rings) and the `atom and formula tool` which allows to insert new atoms.
 ![Adding ring][bax_editor_ring]
@@ -70,7 +78,7 @@ By clicking the button `Done` the user can go back to the submission page.
 The user can provide custom data for the prediction. An example can be downloaded from [here](https://ibm.box.com/v/paccmann-aas-data). In case the user does not provide data the prediction will be performed on all the cell lines from the GDSC (v2) and CCLE studies. Keep in mind this might take up to 5 minutes.
 No worries, the service run predictions in an asynchronous fashion and use cookies to leave the user session open, so that there is no need to leave the browser tab open.
 
-Information on the genes supported by the model can be accessed via the info button.
+Information on the genes supported by the model, preprocessing routines and an exmple file, can be accessed via the info tooltip.
 ![Genes information][genes_info]
 ![Genes information expanded][genes_info_expanded]
 The omic data should be provided as `.csv` with genes in the columns and one row
@@ -79,8 +87,7 @@ provide in our example and additional genes are discarded. Missing genes are
 mean-imputed (with 0s).
 
 The **set of 2128 genes** used for the predictions can be also downloaded
-[here](https://ibm.ent.box.com/s/vfehvfly7mi2obvaj86pjuy9a82e8nik/file/489488390168).
-
+[here](https://ibm.box.com/v/paccmann-aas-gene-list).
 
 #### Confidence estimate
 
@@ -118,7 +125,7 @@ Different samples can be selected via a dropdown rendering different attention p
 ![Attention for sample 1][attention_sample_1]
 
 Drug attention plots can be downloaded in vector graphic format in a zip file.
-[attention_sample_1_download]: paccmann_gui/screens/attention_sample_1_download.png
+![attention_sample_1_download][attention_sample_1_download]
 
 Gene attention plots can  be downloaded using the tools embedded in the visualization.
 
@@ -135,6 +142,7 @@ Here is a complete table for the browsers and OS with verified functionality.
 
 [start]: screens/start.png
 [home]: screens/home.png
+[general_instructions]: screens/general_instructions.png
 [drug_selection]: screens/drug_selection.png
 [smiles_info]: screens/smiles_info.png
 [smiles_info_expanded]: screens/smiles_info_expanded.png
@@ -143,6 +151,7 @@ Here is a complete table for the browsers and OS with verified functionality.
 [confidence_info]: screens/confidence_info.png
 [bax_selection]: screens/bax_selection.png
 [bax_editor]: screens/bax_editor.png
+[bax_editor_instructions]: screens/bax_editor_instructions.png
 [bax_editor_ring]: screens/bax_editor_ring.png
 [bax_editor_confirm]: screens/bax_editor_confirm.png
 [submission]: screens/submission.png
